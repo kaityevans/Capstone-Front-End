@@ -1,0 +1,179 @@
+* {
+  /* margin: 10px; */
+}
+
+/* Header ToolBar */
+#Header-Links,
+li {
+  list-style: none;
+  font-size: 18px;
+  display: inline;
+  margin: 10px;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+  background-image: url(https://st.depositphotos.com/1017992/4286/v/450/depositphotos_42867803-stock-illustration-vegetables.jpg);
+}
+
+.RestaurantDisplay {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10%;
+  /* grid-auto-rows: auto auto; */
+  /* grid-auto-columns: auto auto; */
+}
+.CardContainer {
+  margin: 20px;
+  padding: 10px;
+}
+
+.FavoritesH1 {
+  font-size: 80px;
+  font-weight: bolder;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.Favorites {
+  width: 90%;
+  height: 90%;
+  column-gap: 10%;
+  row-gap: 1%;
+  /* background-color: white; */
+  display: grid;
+  border: none;
+  /* display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center; */
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto; 
+  /* grid-auto-rows: 25%;
+  grid-auto-columns: 10%; */
+  /* padding-left: 10%; */
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 50px;
+}
+
+.FaveIcon{
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  /* width: 50%; */
+}
+
+.OtherFaveInfo, h5 {
+  /* font: 30px; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+}
+
+.ContactH1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.Contact {
+  display: flex;
+  width: 70%;
+  padding: 120px;
+}
+.ContactForm{
+  /* height: 90%; */
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 20px;
+  border: 2px solid rgb(27, 3, 3);
+  justify-content: space-evenly;
+  background-color: rgba(51, 5, 5, 0.95);
+}
+
+.ContactSubmit {
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 15%;
+  height: 10%;
+}
+
+.input1 {
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.Card {
+  border: 2px solid black;
+  width: 60%;
+  height: 70%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-evenly; */
+  /* height: 300px;
+  width: 300px; */
+}
+
+.LoginH1 {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.loginApp {
+  width: 40%;
+  height: 35%;
+  /* background-color: white; */
+  margin: 125px;
+  border: 2px solid rgb(27, 3, 3);
+  justify-content: space-evenly;
+  background-color: rgba(51, 5, 5, 0.95);
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  /* border: 2px solid rgb(27, 3, 3); */
+  justify-content: space-evenly;
+  align-items: space-evenly;
+  background-color: rgba(51, 5, 5, 0.95);
+}
+/* .login-text {
+  padding: 5px;
+} */
+/* .MapContainer {
+  border: 2px solid black;
+  height: 50%;
+  width: 50%;
+  background-color: white;
+  margin: 10px;
+}
+
+.ListContainer {
+  /* color: black; */
+/* border: 2px solid black;
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  margin: 10px; */
+/* list-style:square; */
+/* }  */
