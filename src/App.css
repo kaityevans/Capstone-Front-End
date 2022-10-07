@@ -1,4 +1,5 @@
 * {
+ width: 100%;
   /* margin: 10px; */
 }
 
@@ -9,11 +10,16 @@ li {
   font-size: 18px;
   display: inline;
   margin: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
+#Header-Links {
+  padding-left: 30%;
+}
 .App {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -22,9 +28,11 @@ li {
 }
 
 .RestaurantDisplay {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
   column-gap: 10%;
+  justify-content: center;
   /* grid-auto-rows: auto auto; */
   /* grid-auto-columns: auto auto; */
 }
@@ -44,40 +52,42 @@ li {
 }
 
 .Favorites {
-  width: 90%;
+  width: 40%;
   height: 90%;
-  column-gap: 10%;
+  column-gap: 1%;
   row-gap: 1%;
   /* background-color: white; */
   display: grid;
   border: none;
-  /* display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column;
   justify-items: center;
-  align-content: center; */
+  align-content: center;  */
   grid-template-columns: auto auto;
   grid-template-rows: auto auto; 
   /* grid-auto-rows: 25%;
   grid-auto-columns: 10%; */
-  /* padding-left: 10%; */
+  padding-left: 30%;
   padding-top: 5%;
   padding-bottom: 5%;
   margin: 50px;
 }
 
+.
+
 .FaveIcon{
   /* border: 2px solid black; */
   display: flex;
   flex-direction: row;
-  justify-content: right;
-  /* width: 50%; */
+  justify-content: center;
+  width: 50%;
 }
 
 .OtherFaveInfo, h5 {
   /* font: 30px; */
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .ContactH1 {
@@ -149,12 +159,12 @@ li {
 .login-form {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  /* padding: 10px; */
   margin-top: 40px;
   margin-bottom: 100px;
   /* border: 2px solid rgb(27, 3, 3); */
-  justify-content: space-evenly;
-  align-items: space-evenly;
+  /* justify-content: space-evenly; */
+  /* align-items: space-evenly; */
   background-color: rgba(51, 5, 5, 0.95);
 }
 /* .login-text {

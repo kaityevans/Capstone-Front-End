@@ -22,19 +22,19 @@ function Favorites() {
       <h1 className="FavoritesH1">Favorite Restaurants!</h1>
       <div className="Favorites">
         {response.map((element, index) => (
-          <Card key={index} >
-            <CardContent className="Card" style={{ border: "none" }}>
+          <Card key={index} style={{ width: "70%"}}>
+            <CardContent className="Card" style={{ border: "none", width: "70%" }}>
               <div className="FaveIcon">
                 <IconButton
                   sx={{ fontSize: "180px" }}
-                  style={{ backgroundColor: "lightgrey", color: "#750448" }}
+                  style={{ backgroundColor: "white", color: "#750448" }}
                 >
                   <FavoriteIcon />
                 </IconButton>
                 
               </div>
               
-              <div className="OtherFaveInfo">
+              <div className="OtherFaveInfo" >
               <Typography variant="h5" sx={{ fontSize: "40px"}}component="div">
                   {element.title}
                 </Typography>

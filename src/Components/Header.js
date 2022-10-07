@@ -17,6 +17,7 @@ export default function Header({ title = "Veg-a-Menu" }) {
             variant="h3"
             component="div"
             sx={{ flexGrow: 1 }}
+            style={{ paddingLeft: "5%"}}
           >
             {title}
           </Typography>
@@ -45,21 +46,10 @@ export default function Header({ title = "Veg-a-Menu" }) {
                Login
               </Link>
             </li>
-            {
-              // checkAuth() &&
-              <li>
-                {/* <Link
-                  style={{ textDecoration: "none", color: "white" }}
-                  to="/Add"
-                >
-                  Add a Listing
-                </Link> */}
-              </li>
-            }
             <li>
               {checkAuth() && 
               <Button
-              style={{ color: "white" }}
+              style={{ color: "white", width: "5%"}}
               onClick={deleteCookie}
               >
                 Logout

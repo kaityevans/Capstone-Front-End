@@ -37,7 +37,7 @@ const Login = () => {
         <form className="login-form" onSubmit={login}>
           <h1 className="LoginH1">Login</h1>
           <TextField
-            style={{ backgroundColor: "white", border: "50px green", padding: "20px", margin: "20px" }}
+            style={{ backgroundColor: "white", border: "50px green", padding: "1%", marginBottom: "10%" }}
             required
             onChange={handleTextChange}
             value={state.username}
@@ -46,7 +46,7 @@ const Login = () => {
             type="text"
           />
           <TextField
-            style={{ backgroundColor: "white", border: "50px green", padding: "20px", margin: "20px" }}
+            style={{ backgroundColor: "white", border: "50px green", padding: "1%", marginBottom: "10%" }}
             required
             onChange={handleTextChange}
             value={state.password}
@@ -55,7 +55,7 @@ const Login = () => {
             type="password"
           />
           <Button
-            style={{ margin: "20px" }}
+            style={{ margin: "1%", width: "101%" }}
             type="submit"
             className="login-button"
             variant="contained"

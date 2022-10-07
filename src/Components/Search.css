@@ -1,9 +1,11 @@
 .searchInputs {
   margin-top: 15px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .searchInputs, input {
-  width: 95%;
+  width: 65%;
   padding: 15px;
   font-size: 18px;
 }

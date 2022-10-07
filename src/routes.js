@@ -2,11 +2,12 @@ import React from "react";
 import { Routes, Route } from "react-router";
 import { Navigate } from "react-router-dom";
 import cookie from "cookie";
-import Search from "./Components/Search";
+// import Restaurants from "./Components/Restaurants";
 import Favorites from "./Components/Favorites";
 import Login from "./Components/Login";
 import Contact from "./Components/Contact";
 import Get from "./api";
+import Restaurants from "./Components/Restaurants";
 
 // Check the cookies for a cookie called "loggedIn"
 export const checkAuth = () => {
@@ -32,7 +33,7 @@ export const deleteCookie = () => {
 const Router = () => {
   return (
     <Routes>
-      <Route exact path="/" element={<Search />}></Route>
+      <Route exact path="/" element={<Restaurants />}></Route>
       <Route path="/Login" element={<Login />}></Route>
       <Route path="/Api" element={<Get />}></Route>
       <Route path="/Contact" element={<Contact />}></Route>
