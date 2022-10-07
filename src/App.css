@@ -1,6 +1,10 @@
 * {
- width: 100%;
+ /* width: 100%; */
   /* margin: 10px; */
+}
+
+.Header, .Footer {
+  width: 100%;
 }
 
 /* Header ToolBar */
@@ -10,16 +14,16 @@ li {
   font-size: 18px;
   display: inline;
   margin: 10px;
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 10%; */
+  /* padding-right: 10%; */
 }
 
 #Header-Links {
-  padding-left: 30%;
+  /* padding-left: 30%; */
 }
 .App {
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -33,6 +37,7 @@ li {
   grid-template-rows: auto auto auto;
   column-gap: 10%;
   justify-content: center;
+  /* color: black; */
   /* grid-auto-rows: auto auto; */
   /* grid-auto-columns: auto auto; */
 }
@@ -41,8 +46,14 @@ li {
   padding: 10px;
 }
 
+.FaveMainContainer {
+  width: 80%;
+  max-width: 1335px;
+  margin: 0 auto;
+}
+
 .FavoritesH1 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bolder;
   color: white;
   display: flex;
@@ -52,34 +63,35 @@ li {
 }
 
 .Favorites {
-  width: 40%;
+  width: 50%;
   height: 90%;
-  column-gap: 1%;
-  row-gap: 1%;
+  column-gap: 3%;
+  row-gap: 3%;
   /* background-color: white; */
-  display: grid;
+  /* display: grid; */
   border: none;
   /* display: flex; */
-  /* flex-direction: column;
-  justify-items: center;
-  align-content: center;  */
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto; 
+  /* flex-direction: column; */
+  /* justify-items: center; */
+  /* align-content: center;  */
+  /* grid-template-columns: auto auto; */
+  /* grid-template-rows: auto auto;  */
   /* grid-auto-rows: 25%;
   grid-auto-columns: 10%; */
   padding-left: 30%;
   padding-top: 5%;
   padding-bottom: 5%;
   margin: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
-
-.
 
 .FaveIcon{
   /* border: 2px solid black; */
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   width: 50%;
 }
 

@@ -18,7 +18,7 @@ function Favorites() {
   //   console.log("Here is the Response State", response)
   // },  [response])
   return (
-    <div>
+    <div className="FaveMainContainer">
       <h1 className="FavoritesH1">Favorite Restaurants!</h1>
       <div className="Favorites">
         {response.map((element, index) => (
