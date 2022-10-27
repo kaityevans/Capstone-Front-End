@@ -1,6 +1,6 @@
-`Veg-A-Menu`  
+`Veg-a-Menu`  
 
-Veg-A-Menu is a full stack application that allows someone to search for all vegetarian options at restaurants in their area.
+Veg-a-Menu is a full stack application that allows someone to search for all vegetarian options at restaurants in their area.
 The application allows the user to search for restaurants, view their current yelp rating, and favorite restaurants that they enjoy.
 
 Below is a link to the loom video demonstrating what this application can do.
